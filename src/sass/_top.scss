@@ -1,0 +1,244 @@
+.go-button {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #E0A941;
+	text-align: center;
+	padding: 1vw 5vw;
+	border-radius: 3vw;
+	font-size: 1vw;
+	font-weight: bold;
+	filter: drop-shadow(0 .6vw 0 #8D6B36);
+	transition: all .5s;
+	&:hover {
+		filter: none;
+		transform: translate(-50%, .6vw);
+	}
+}
+.top {
+	position: relative;
+	width: 100%;
+	margin-bottom: 10vw;
+	&-heading {
+		font-size: 60px;
+		font-weight: bold;
+		text-align: center;
+	}
+	&__image {
+		text-align: center;
+		img {
+			width: 100%;
+			margin-top: 2%;
+		}
+	}
+	&__title {
+		font-size: 7vw;
+		position: absolute;
+		top: 44%;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		line-height: 4vw;
+		&--en {
+			font-size: 2vw;
+			font-weight: 100;
+		}
+	}
+	&__button {
+		top: 72%;
+	}
+	&__scroll {
+		position: absolute;
+		top: 88vh;
+		width: 100%;
+		font-size: 2vw;
+		font-weight: bold;
+		text-align: center;
+		&__text {
+			line-height: 1;
+		}
+		&__icon {
+			width: 2vw;
+			margin-top: .8vw;
+		}
+	}
+}
+.introduction {
+	position: relative;
+	font-weight: bold;
+	width: 75%;
+	max-width: 1200px;
+	margin: 2vw auto 1vw;
+	padding-bottom: 5vw;
+	&__text {
+		line-height: 2.5em;
+		font-size: 20px;
+	}
+	&__button {
+		bottom: 0;
+	}
+}
+.how {
+	position: relative;
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto 5vw;
+	padding: 3vw 0 7vw;
+	&__contents {
+		&__explain {
+			padding: 20px 0;
+			&__title {
+				font-size: 30px;
+				border-bottom: 2px solid #FFF;
+				&--explain {
+					font-size: 18px;
+					margin: 0;
+					font-weight: 100;
+					line-height: 2.5rem;
+				}
+			}
+		}
+	}
+	&__button {
+		bottom: 0;
+	}
+	.explain {
+		&--1 {
+			display: flex;
+			justify-content: space-between;
+			&__figure {
+				position: relative;
+				width: 35%;
+				img {
+					width: 100%;
+				}
+			}
+			&__text {
+				width: 62%;
+				margin: 0;
+				font-size: 16px;
+				line-height: 2em;
+				position: relative;
+			}
+		}
+		&--2 {
+			&__container {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				margin-top: 8px;
+				&__box {
+					width: 48%;
+					display: flex;
+					justify-content: space-between;
+					margin: 12px 0;
+					&__concept {
+						text-align: center;
+						&__object {
+							width: 38px;
+							height: 38px;
+							border-radius: 50%;
+							background-color: #FFFFFF;
+							margin: 0 auto;
+							&.world {
+								border: 12px solid $worldColor;
+							}
+							&.history {
+								border: 12px solid $historyColor;
+							}
+							&.life {
+								border: 12px solid $lifeColor;
+							}
+							&.mind {
+								border: 12px solid $mindColor;
+							}
+							&.social {
+								border: 12px solid $socialColor;
+							}
+							&.causality {
+								border: 12px solid $causalityColor;
+							}
+							&.lang {
+								border: 12px solid $langColor;
+							}
+							&.perception {
+								border: 12px solid $perceptionColor;
+							}
+						}
+						&__name {
+							font-size: 14px;
+							line-height: 2em;
+						}
+					}
+					&__text {
+						font-size: 16px;
+						margin: 0;
+						margin-left: 20px;
+						line-height: 1.7em;
+					}
+				}
+			}
+		}
+		&--3 {
+			&__container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-top: 20px;
+				&__box {
+					width: 30%;
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					&__line {
+						height: 80%;
+					}
+					&__content {
+						width: 80%;
+						&__title {
+							margin: 0;
+							font-size: 22px;
+							font-weight: 500;
+							line-height: 1.8em;
+						}
+						&__text {
+							margin: 0;
+							font-size: 16px;
+							line-height: 1.7em;
+						}
+					}
+				}
+			}
+		}
+		&--4 {
+			&__container {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				margin-top: 25px;
+				&__text {
+					width: 72%;
+					margin: 0;
+					font-size: 16px;
+					line-height: 2em;
+					margin-bottom: 30px;
+				}
+				&__img {
+					width: 47%;
+					border: 1px solid #555555;
+				}
+			}
+		}
+	}
+}
+.references {
+	&__list {
+		margin: 30px auto 10vw;
+		width: 75%;
+		max-width: 1200px;
+		&__item {
+			font-size: 20px;
+			line-height: 2.2em;
+		}
+	}
+}

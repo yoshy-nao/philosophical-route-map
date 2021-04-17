@@ -1,0 +1,479 @@
+<?positionml version="1.0" encoding="utf-8"?>
+<theData>
+	<!-- 出来事ここから -->
+	<event id="event-1" x="15" birth='-670'>神話の世界観</event>
+	<event id="event-1" x="1" birth='-630'>人々の交流が盛んになる</event>
+	<event id="event-2" x="-4" birth='-500'>ソフィストの登場</event>
+	<event id="event-2" x="-7" birth='-461'>アテナイの民主制最盛期</event>
+	<event id="event-3" x="40" birth='-334'>アレクサンドロス大王の東方遠征</event>
+	<event id="event-3" x="-5" birth='-27'>ローマで帝政成立</event>
+	<event id="event-3" x="36" birth='0'>キリスト教の登場</event>
+	<event id="event-3" x="20" birth='313'>ミラノ勅令</event>
+	<event id="event-3" x="4" birth='325'>ニケーア公会議</event>
+	<event id="event-3" x="30" birth='529'>アカデメイア・リュケイオン閉鎖</event>
+	<event id="event-3" x="7" birth='1096'>十字軍の遠征</event>
+	<event id="event-3" x="20" birth='1150'>普遍論争</event>
+	<event id="event-3" x="25" birth='1300'>ルネサンス</event>
+	<event id="event-3" x="0" birth='1492'>コロンブス新大陸を発見</event>
+	<event id="event-3" x="15" birth='1517'>宗教革命</event>
+	<event id="event-3" x="30" birth='1550'>絶対王政の成立</event>
+	<event id="event-3" x="32" birth='1610'>科学革命</event>
+	<event id="event-3" x="0" birth='1625'>宇宙の解明</event>
+	<event id="event-3" x="35" birth='1642'>ピューリタン革命</event>
+	<event id="event-3" x="35" birth='1688'>名誉革命</event>
+	<event id="event-3" x="32" birth='1750'>産業革命</event>
+	<event id="event-3" x="45" birth='1775'>フランス革命</event>
+	<event id="event-3" x="35" birth='1789'>アメリカ独立戦争</event>
+	<event id="event-3" x="-5" birth='1830'>資本主義が発展</event>
+	<event id="event-3" x="40" birth='1914'>第一次世界大戦</event>
+	<event id="event-3" x="-10" birth='1914'>ロシア革命</event>
+	<event id="event-3" x="35" birth='1939'>第二次世界大戦</event>
+	<event id="event-3" x="-10" birth='1939'>中華人民共和国成立</event>
+	<event id="event-3" x="-5" birth='1968'>パリ五月革命</event>
+	<!-- 出来事ここまで -->
+	<!-- グループここから -->
+	<group id="group-1" x="15" birth='-648'>イオニア派</group>
+	<group id="group-2" x="17" birth='-526'>多元論者</group>
+	<group id="group-3" x="4.8" birth='-493'>三大哲学者</group>
+	<group id="group-4" x="18" birth='-370'>ヘレニズム哲学</group>
+	<group id="group-4" x="6.6" birth='175'>新プラトン主義</group>
+	<group id="group-4" x="10.3" birth='325'>教父哲学</group>
+	<group id="group-4" x="11.3" birth='1192'>スコラ哲学</group>
+	<group id="group-4" x="9.1" birth='1565'>大陸合理論</group>
+	<group id="group-4" x="17.1" birth='1605'>イギリス経験論</group>
+	<group id="group-4" x="26" birth='1660'>啓蒙主義</group>
+	<group id="group-4" x="0" birth='1705'>ドイツ観念論</group>
+	<group id="group-4" x="22" birth='1815'>功利主義</group>
+	<group id="group-4" x="12.5" birth='1793'>実存主義</group>
+	<group id="group-4" x="24" birth='1850'>分析哲学</group>
+	<group id="group-4" x="15.8" birth='1835'>現象学</group>
+	<!-- <group id="group-4" x="28" birth='1898'>京都学派</group> -->
+	<group id="group-4" x="-1" birth='1878'>構造主義</group>
+	<group id="group-4" x="14" birth='1938'>ポスト構造主義</group>
+	<!-- グループここまで -->
+	<!-- 個別思想ここから -->
+	<!-- ゾロアスター教 -->
+	<data x="28" birth='-600' side="right">ゾロアスター教</data>
+	<concept id="history-1" x="27" birth='-600' genre="history" link="history/1.php" type="main">善悪二元論</concept>
+	<!-- タレス -->
+	<data x="23" birth='-624' side="right">タレス</data>
+	<concept id="world-1" x="22" birth='-624' genre="world" link="world/1.php" type="main">アルケー【水】</concept>
+	<!-- アナクシマンドロス -->
+	<data x="17" birth='-610' side="left">アナクシマンドロス</data>
+	<concept id="world-2" x="18" birth='-610' genre="world" link="world/2.php" type="main">アルケー【無限】</concept>
+	<!-- アナクシメネス -->
+	<data x="19" birth='-585' side="left">アナクシメネス</data>
+	<concept id="world-3" x="20" birth='-585' genre="world" link="world/3.php" type="main">アルケー【空気】</concept>
+	<!-- ピタゴラス -->
+	<data x="2" birth='-582' side="left">ピタゴラス</data>
+	<concept id="world-4" x="3" birth='-582' genre="world" link="world/4.php" type="main">アルケー【数】</concept>
+	<!-- ヘラクレイトス -->
+	<data x="24" birth='-540' side="left">ヘラクレイトス</data>
+	<concept id="world-5" x="25" birth='-540' genre="world" link="world/5.php" type="main">アルケー【火】</concept>
+	<!-- アナクサゴラス -->
+	<data x="21" birth='-500' side="right">アナクサゴラス</data>
+	<concept id="world-6" x="20" birth='-500' genre="world" link="world/6.php" type="main">スペルマタ</concept>
+	<!-- エンペドクレス -->
+	<data x="16" birth='-494' side="left">エンペドクレス</data>
+	<concept id="world-7" x="17" birth='-494' genre="world" link="world/7.php" type="main">四大元素論</concept>
+	<!-- デモクリトス -->
+	<data x="23" birth='-460' side="right">デモクリトス</data>
+	<concept id="world-8" x="22" birth='-460' genre="world" link="world/8.php" type="main">原子論</concept>
+	<!-- ソクラテス -->
+	<data x="10" birth='-469' side="left">ソクラテス</data>
+	<concept id="life-1" x="11" birth='-469' genre="life" link="life/1.php" type="main">魂への配慮</concept>
+	<!-- プラトン -->
+	<data x="5" birth='-427' side="left">プラトン</data>
+	<concept id="world-9" x="6" birth='-427' genre="world" link="world/9.php" type="main">イデア界・現象界</concept>
+	<concept id="social-1" x="7" birth='-427' genre="social" link="social/1.php" type="sub">哲人政治</concept>
+	<concept id="mind-1" x="8" birth='-427' genre="mind" link="mind/1.php" type="sub">魂の３分説</concept>
+	<concept id="life-2" x="9" birth='-427' genre="life" link="life/2.php" type="sub">エロス</concept>
+	<connect p1="world-9" lineType1="develop-line--world" lineType2="develop-line--social"></connect>
+	<connect p1="social-1" lineType1="develop-line--social" lineType2="develop-line--mind"></connect>
+	<connect p1="mind-1" lineType1="develop-line--mind" lineType2="develop-line--life"></connect>
+	<!-- ディオゲネス -->
+	<data x="17" birth='-412' side="right">ディオゲネス</data>
+	<concept id="life-3" x="16" birth='-412' genre="life" link="life/3.php" type="main">シニシズム</concept>
+	<!-- アリストテレス -->
+	<concept id="causality-1" x="7" birth='-384' genre="causality" link="causality/1.php" type="sub">第一因</concept>
+	<concept id="social-2" x="9" birth='-384' genre="social" link="social/2.php" type="sub">中庸</concept>
+	<concept id="world-10" x="8" birth='-384' genre="world" link="world/10.php" type="sub">四性質説</concept>
+	<concept id="mind-2" x="10" birth='-384' genre="mind" link="mind/2.php" type="sub">プシュケー</concept>
+	<concept id="life-4" x="11" birth='-384' genre="life" link="life/4.php" type="main">エウダイモニア</concept>
+	<connect p1="causality-1" lineType1="develop-line--causality" lineType2="develop-line--world"></connect>
+	<connect p1="world-10" lineType1="develop-line--world" lineType2="develop-line--social"></connect>
+	<connect p1="social-2" lineType1="develop-line--social" lineType2="develop-line--mind"></connect>
+	<connect p1="mind-2" lineType1="develop-line--mind" lineType2="develop-line--life"></connect>
+	<data x="12" birth='-384' side="right">アリストテレス</data>
+	<!-- エピクロス -->
+	<data x="23" birth='-341' side="right">エピクロス</data>
+	<concept id="life-5" x="22" birth='-341' genre="life" link="life/5.php" type="main">アタラクシア</concept>
+	<!-- ゼノン -->
+	<data x="18" birth='-335' side="right">ゼノン</data>
+	<concept id="life-6" x="17" birth='-335' genre="life" link="life/6.php" type="main">アパテイア</concept>
+	<concept id="world-11" x="16" birth='-335' genre="world" link="world/11.php" type="sub">神のロゴス</concept>
+	<connect p1="world-11" lineType1="develop-line--world" lineType2="develop-line--life"></connect>
+	<!-- キリスト教 -->
+	<data x="26" birth='0' side="right">キリスト教</data>
+	<concept id="history-2" x="25" birth='0' genre="history" link="history/2.php" type="main">天地創造・最後の審判</concept>
+	<concept id="world-12" x="24" birth='0' genre="world" link="world/12.php" type="sub">天地創造</concept>
+	<connect p1="world-12" lineType1="develop-line--world" lineType2="develop-line--history"></connect>
+	<!-- プロティノス -->
+	<data x="10" birth='205' side="right">プロティノス</data>
+	<concept id="world-13" x="9" birth='205' genre="world" link="world/13.php" type="main">流出説</concept>
+	<!-- アウグスティヌス -->
+	<data x="16" birth='354' side="right">アウグスティヌス</data>
+	<concept id="life-7" x="15" birth='354' genre="life" link="life/7.php" type="main">神の恩寵</concept>
+	<concept id="world-14" x="14" birth='354' genre="world" link="world/14.php" type="sub">神の国・地上の国</concept>
+	<connect p1="world-14" lineType1="develop-line--world" lineType2="develop-line--life"></connect>
+	<!-- トマス・アクィナス -->
+	<data x="12" birth='1225' side="left">トマス・アクィナス</data>
+	<concept id="causality-2" x="13" birth='1225' genre="causality" link="causality/2.php" type="main">神の存在証明</concept>
+	<concept id="world-15" x="14" birth='1225' genre="world" link="world/15.php" type="sub">存在のアナロギア</concept>
+	<connect p1="causality-2" lineType1="develop-line--causality" lineType2="develop-line--world"></connect>
+	<!-- オッカム -->
+	<data x="17" birth='1285' side="right">オッカム</data>
+	<concept id="lang-1" x="16" birth='1285' genre="lang" link="lang/1.php" type="main">ノミリズム</concept>
+	<!-- マキャベリ -->
+	<data x="21" birth='1469' side="left">マキャベリ</data>
+	<concept id="social-3" x="22" birth='1469' genre="social" link="social/3.php" type="main">君主制</concept>
+	<!-- ホッブス -->
+	<data x="26" birth='1588' side="right">ホッブズ</data>
+	<concept id="social-4" x="25" birth='1588' genre="social" link="social/4.php" type="main">社会契約説</concept>
+	<concept id="mind-3" x="24" birth='1588' genre="mind" link="mind/3.php" type="sub">機械論的自然観</concept>
+	<connect p1="mind-3" lineType1="develop-line--mind" lineType2="develop-line--social"></connect>
+	<!-- デカルト -->
+	<data x="14" birth='1596' side="left">デカルト</data>
+	<concept id="perception-1" x="15" birth='1596' genre="perception" link="perception/1.php" type="main">生得観念</concept>
+	<concept id="mind-4" x="16" birth='1596' genre="mind" link="mind/4.php" type="sub">生得観念・心身二元論</concept>
+	<connect p1="perception-1" lineType1="develop-line--perception" lineType2="develop-line--mind"></connect>
+	<!-- スピノザ -->
+	<data x="11" birth='1632' side="left">スピノザ</data>
+	<concept id="world-16" x="12" birth='1632' genre="world" link="world/16.php" type="main">一元論</concept>
+	<!-- ロック -->
+	<data x="22" birth='1632' side="right">ロック</data>
+	<concept id="perception-2" x="20" birth='1632' genre="perception" link="perception/2.php" type="sub">ダブラ・ラサ</concept>
+	<concept id="social-5" x="21" birth='1632' genre="social" link="social/5.php" type="main">議会制民主主義</concept>
+	<connect p1="perception-2" lineType1="develop-line--perception" lineType2="develop-line--social"></connect>
+	<!-- ライプニッツ -->
+	<data x="11" birth='1646' side="left">ライプニッツ</data>
+	<concept id="world-17" x="12" birth='1646' genre="world" link="world/17.php" type="main">モナド</concept>
+	<!-- バークリー -->
+	<data x="22" birth='1685' side="right">バークリー</data>
+	<concept id="perception-3" x="21" birth='1685' genre="perception" link="perception/3.php" type="main">非物質論的観念論</concept>
+	<!-- モンテスキュー -->
+	<data x="28" birth='1689' side="right">モンテスキュー</data>
+	<concept id="social-6" x="27" birth='1689' genre="social" link="social/6.php" type="main">三権分立</concept>
+	<!-- ヒューム -->
+	<data x="23" birth='1711' side="right">ヒューム</data>
+	<concept id="mind-5" x="20" birth='1711' genre="mind" link="mind/5.php" type="sub">知覚の束</concept>
+	<concept id="causality-3" x="21" birth='1711' genre="causality" link="causality/3.php" type="sub">因果律批判</concept>
+	<concept id="perception-4" x="22" birth='1711' genre="perception" link="perception/4.php" type="main">知覚の束</concept>
+	<connect p1="mind-5" lineType1="develop-line--mind" lineType2="develop-line--causality"></connect>
+	<connect p1="causality-3" lineType1="develop-line--causality" lineType2="develop-line--perception"></connect>
+	<!-- ルソー -->
+	<data x="28" birth='1712' side="right">ルソー</data>
+	<concept id="social-7" x="27" birth='1712' genre="social" link="social/7.php" type="main">一般意志</concept>
+	<!-- アダム・スミス -->
+	<data x="26" birth='1723' side="right">アダム・スミス</data>
+	<concept id="social-8" x="25" birth='1723' genre="social" link="social/8.php" type="main">自由放任主義</concept>
+	<!-- カント -->
+	<data x="15" birth='1724' side="left">カント</data>
+	<concept id="causality-4" x="16" birth='1724' genre="causality" link="causality/4.php" type="main">悟性</concept>
+	<concept id="perception-5" x="17" birth='1724' genre="perception" link="perception/5.php" type="sub">超越論的観念論</concept>
+	<concept id="social-9" x="18" birth='1724' genre="social" link="social/9.php" type="sub">定言命法</concept>
+	<connect p1="causality-4" lineType1="develop-line--causality" lineType2="develop-line--perception"></connect>
+	<connect p1="perception-5" lineType1="develop-line--perception" lineType2="develop-line--social"></connect>
+	<!-- ベンサム -->
+	<data x="24" birth='1748' side="right">ベンサム</data>
+	<concept id="social-10" x="23" birth='1748' genre="social" link="social/10.php" type="main">最大多数の最大幸福</concept>
+	<!-- フィヒテ -->
+	<data x="18" birth='1762' side="right">フィヒテ</data>
+	<concept id="perception-6" x="17" birth='1762' genre="perception" link="perception/6.php" type="main">自我</concept>
+	<!-- シェリング -->
+	<data x="14" birth='1775' side="right">シェリング</data>
+	<concept id="perception-8" x="13" birth='1775' genre="perception" link="perception/8.php" type="main">同一哲学</concept>
+	<!-- ヘーゲル -->
+	<data x="4" birth='1770' side="left">ヘーゲル</data>
+	<concept id="mind-6" x="5" birth='1770' genre="mind" link="mind/6.php" type="main">自己意識</concept>
+	<concept id="social-11" x="6" birth='1770' genre="social" link="social/11.php" type="sub">市民社会・国家</concept>
+	<concept id="history-3" x="7" birth='1770' genre="history" link="history/3.php" type="sub">進歩史観</concept>
+	<concept id="perception-7" x="8" birth='1770' genre="perception" link="perception/7.php" type="sub">弁証法</concept>
+	<connect p1="mind-6" lineType1="develop-line--mind" lineType2="develop-line--social"></connect>
+	<connect p1="social-11" lineType1="develop-line--social" lineType2="develop-line--history"></connect>
+	<connect p1="history-3" lineType1="develop-line--history" lineType2="develop-line--perception"></connect>
+	<!-- ミル -->
+	<data x="26" birth='1806' side="right">ミル</data>
+	<concept id="social-12" x="25" birth='1806' genre="social" link="social/12.php" type="main">質的功利主義</concept>
+	<!-- ショーペンハウアー -->
+	<data x="14" birth='1788' side="right">ショーペンハウアー</data>
+	<concept id="history-4" x="12" birth='1788' genre="history" link="history/4.php" type="main">ペシミズム</concept>
+	<concept id="life-8" x="13" birth='1788' genre="life" link="life/8.php" type="sub">生への意志</concept>
+	<connect p1="history-4" lineType1="develop-line--history" lineType2="develop-line--life"></connect>
+	<!-- ダーウィン -->
+	<data x="4" birth='1809' side="left">ダーウィン</data>
+	<concept id="history-5" x="5" birth='1809' genre="history" link="history/5.php" type="main">進化論</concept>
+	<!-- キルケゴール -->
+	<data x="17" birth='1813' side="right">キルケゴール</data>
+	<concept id="life-9" x="16" birth='1813' genre="life" link="life/9.php" type="main">実存の3段階</concept>
+	<!-- マルクス -->
+	<data x="5" birth='1818' side="left">マルクス</data>
+	<concept id="social-13" x="6" birth='1818' genre="social" link="social/13.php" type="main">共産主義社会</concept>
+	<concept id="history-6" x="7" birth='1818' genre="history" link="history/6.php" type="sub">唯物論的弁証法</concept>
+	<concept id="mind-7" x="8" birth='1818' genre="mind" type="sub" link="mind/7.php">階級意識</concept>
+	<connect p1="social-13" lineType1="develop-line--social" lineType2="develop-line--history"></connect>
+	<connect p1="history-6" lineType1="develop-line--history" lineType2="develop-line--mind"></connect>
+	<!-- パース -->
+	<data x="25" birth='1839' side="right">パース</data>
+	<concept id="lang-2" x="24" birth='1839' genre="lang" link="lang/2.php" type="main">記号論</concept>
+	<!-- ジェームズ -->
+	<!-- <data x="23" birth='1842' side="left">ジェームズ</data>
+	<concept id="lang-5" x="24" birth='1842' genre="lang" link="lang/5.php" type="main">超越論的観念論</concept> -->
+	<!-- ニーチェ -->
+	<data x="10" birth='1844' side="left">ニーチェ</data>
+	<concept id="history-7" x="11" birth='1844' genre="history" link="history/7.php" type="main">永劫回帰</concept>
+	<concept id="life-10" x="12" birth='1844' genre="life" link="life/10.php" type="sub">力への意志</concept>
+	<connect p1="history-7" lineType1="develop-line--history" lineType2="develop-line--life"></connect>
+	<!-- フロイト -->
+	<data x="4" birth='1856' side="left">フロイト</data>
+	<concept id="mind-8" x="5" birth='1856' genre="mind" link="mind/8.php">無意識</concept>
+	<!-- ソシュール -->
+	<data x="11" birth='1857' side="right">ソシュール</data>
+	<concept id="lang-3" x="10" birth='1857' genre="lang" link="lang/3.php">言語の恣意性</concept>
+	<!-- フッサール -->
+	<data x="21" birth='1859' side="right">フッサール</data>
+	<concept id="perception-9" x="20" birth='1859' genre="perception" link="perception/9.php" type="main">現象学的還元</concept>
+	<!-- ベルクソン -->
+	<!-- <data x="29" birth='1859' side="right">ベルクソン</data>
+	<concept id="world-18" x="28" birth='1859' genre="world" link="world/18.php" type="main">超越論的観念論</concept> -->
+	<!-- 西田幾多郎 -->
+	<data x="29" birth='1870' side="right">西田幾多郎</data>
+	<concept id="perception-10" x="27" birth='1870' genre="perception" link="perception/10.php" type="sub">純粋経験</concept>
+	<concept id="world-19" x="28" birth='1870' genre="world" link="world/19.php" type="main">絶対無</concept>
+	<connect p1="perception-10" lineType1="develop-line--perception" lineType2="develop-line--world"></connect>
+	<!-- ラッセル -->
+	<data x="24" birth='1872' side="left">ラッセル</data>
+	<concept id="lang-4" x="25" birth='1872' genre="lang" link="lang/4.php" type="main">記述理論</concept>
+	<!-- ヤスパース -->
+	<data x="15" birth='1883' side="right">ヤスパース</data>
+	<concept id="life-11" x="14" birth='1883' genre="life" link="life/11.php" type="main">包括者</concept>
+	<!-- ウィトゲンシュタイン -->
+	<data x="24" birth='1889' side="left">ウィトゲンシュタイン</data>
+	<concept id="lang-5" x="25" birth='1889' genre="lang" link="lang/5.php" type="main">写像理論</concept>
+	<concept id="lang-6" x="26" birth='1889' genre="lang" link="lang/6.php" type="sub">言語ゲーム</concept>
+	<connect p1="lang-5" lineType1="develop-line--lang" lineType2="develop-line--lang"></connect>
+	<!-- 和辻哲郎 -->
+	<!-- <data x="28" birth='1889' side="right">和辻哲郎</data>
+	<concept id="world-20" x="27" birth='1889' genre="world" link="world/20.php" type="main">間柄的存在</concept> -->
+	<!-- ハイデガー -->
+	<data x="16" birth='1889' side="left">ハイデガー</data>
+	<concept id="life-12" x="17" birth='1889' genre="life" link="life/12.php" type="main">本来性</concept>
+	<concept id="perception-11" x="18" birth='1889' genre="perception" link="perception/11.php" type="sub">開示性</concept>
+	<connect p1="life-12" lineType1="develop-line--life" lineType2="develop-line--perception"></connect>
+	<!-- ラカン -->
+	<data x="1" birth='1901' side="left">ラカン</data>
+	<concept id="mind-9" x="2" birth='1901' genre="mind" link="mind/9.php">鏡像段階</concept>
+	<!-- サルトル -->
+	<data x="12" birth='1905' side="left">サルトル</data>
+	<concept id="life-13" x="13" birth='1905' genre="life" link="life/13.php" type="main">実存</concept>
+	<concept id="social-14" x="14" birth='1905' genre="social" link="social/14.php" type="sub">アンガージュマン</concept>
+	<connect p1="life-13" lineType1="develop-line--life" lineType2="develop-line--social"></connect>
+	<!-- レヴィナス -->
+	<data x="23" birth='1906' side="right">レヴィナス</data>
+	<concept id="social-15" x="22" birth='1906' genre="social" link="social/15.php" type="main">他者論</concept>
+	<!-- メルロ＝ポンティ -->
+	<data x="17" birth='1908' side="left">メルロ＝ポンティ</data>
+	<concept id="perception-12" x="18" birth='1908' genre="perception" link="perception/12.php" type="main">可逆性</concept>
+	<concept id="mind-11" x="19" birth='1908' genre="mind" link="mind/11.php" type="sub">身体図式</concept>
+	<connect p1="perception-12" lineType1="develop-line--perception" lineType2="develop-line--mind"></connect>
+	<!-- レヴィ＝ストロース -->
+	<data x="8" birth='1908' side="left">レヴィ＝ストロース</data>
+	<concept id="mind-10" x="9" birth='1908' genre="mind" link="mind/10.php">構造主義</concept>
+	<!-- バルト -->
+	<data x="6" birth='1915' side="left">バルト</data>
+	<concept id="lang-7" x="7" birth='1915' genre="lang" link="lang/7.php">作者の死</concept>
+	<!-- アルチュセール -->
+	<data x="2" birth='1918' side="left">アルチュセール</data>
+	<concept id="social-16" x="3" birth='1918' genre="social" link="social/16.php" type="main">国家のイデオロギー装置</concept>
+	<!-- ロールズ -->
+	<!-- <data x="28" birth='1921' side="right">ロールズ</data>
+	<concept id="social-17" x="27" birth='1921' genre="social" link="social/15.php" type="main">進化論</concept> -->
+	<!-- クーン -->
+	<data x="27" birth='1922' side="right">クーン</data>
+	<concept id="history-9" x="26" birth='1922' genre="history" link="history/9.php">パラダイムシフト</concept>
+	<!-- ドゥルーズ -->
+	<data x="14" birth='1925' side="right">ドゥルーズ</data>
+	<concept id="life-14" x="13" birth='1925' genre="life" link="life/14.php" type="main">リゾーム</concept>
+	<!-- フーコー -->
+	<data x="10" birth='1926' side="right">フーコー</data>
+	<concept id="social-18" x="9" birth='1926' genre="social" link="social/18.php" type="main">パノプティコン</concept>
+	<!-- デリダ -->
+	<data x="19" birth='1926' side="left">デリダ</data>
+	<concept id="lang-8" x="20" birth='1926' genre="lang" link="lang/8.php" type="main">脱構築</concept>
+	<concept id="social-19" x="21" birth='1926' genre="social" link="social/19.php" type="sub">法の脱構築</concept>
+	<connect p1="lang-8" lineType1="develop-line--lang" lineType2="develop-line--social"></connect>
+	<!-- 個別思想ここまで -->
+	<!-- ラインここから -->
+	<!-- ゾロアスター教ーキリスト教 -->
+	<line p1="history-1" p2="history-2" data="history" viaX="" viaY="580"></line>
+	<!-- タレスーアナクシマンドロス -->
+	<line p1="world-1" p2="world-2" data="world" viaX="-3" viaY=""></line>
+	<!-- タレスーアナクシメネス -->
+	<line p1="world-1" p2="world-3" data="world" viaX="0" viaY="25"></line>
+	<!-- タレスーヘラクレイトス -->
+	<line p1="world-1" p2="world-5" data="world" viaX="3" viaY="20"></line>
+	<!-- アナクシマンドロスーアナクシメネス -->
+	<line p1="world-2" p2="world-3" data="world" viaX="0" viaY="10"></line>
+	<!-- ヘラクレイトスーデモクリトス -->
+	<line p1="world-5" p2="world-8" data="world" viaX="0" viaY="55"></line>
+	<!-- ピタゴラスープラトン -->
+	<line p1="world-4" p2="world-9" data="world" viaX="0" viaY="130"></line>
+	<!-- アナクサゴラスーエンペドクレス -->
+	<line p1="world-6" p2="world-7" data="world" viaX="-2" viaY="0"></line>
+	<!-- エンペドクレスーデモクリトス -->
+	<line p1="world-7" p2="world-8" data="world" viaX="" viaY=""></line>
+	<!-- エンペドクレスーアリストテレス -->
+	<line p1="world-7" p2="world-10" data="world" viaX="0" viaY="30"></line>
+	<!-- デモクリトスーエピクロス -->
+	<line p1="world-8" p2="life-5" data="hint" viaX="" viaY=""></line>
+	<!-- ソクラテスープラトン -->
+	<line p1="life-1" p2="life-2" data="life" viaX="-2" viaY="15"></line>
+	<!-- ソクラテスーディオゲネス -->
+	<line p1="life-1" p2="life-3" data="life" viaX="5" viaY="35"></line>
+	<!-- ソクラテスーエピクロス -->
+	<!-- <line p1="life-1" p2="life-6" data="life" viaX="1.5" viaY="0"></line> -->
+	<!-- プラトンーアリストテレス -->
+	<line p1="world-9" p2="world-10" data="repulsion" viaX="2" viaY="15"></line>
+	<line p1="life-2" p2="life-4" data="life" viaX="2" viaY="15"></line>
+	<!-- プラトンーディオゲネス -->
+	<line p1="life-2" p2="life-3" data="repulsion" viaX="5" viaY="0"></line>
+	<!-- プラトンープロティノス -->
+	<line p1="world-9" p2="world-13" data="world" viaX="0" viaY="600"></line>
+	<!-- ディオゲネスーゼノン -->
+	<line p1="life-3" p2="life-6" data="life" viaX="1" viaY="7"></line>
+	<!-- キリスト教ーアウグスティヌス -->
+	<line p1="world-12" p2="world-14" data="world" viaX="-10" viaY="100"></line>
+	<!-- アリストテレスートマス・アクィナス -->
+	<line p1="causality-1" p2="causality-2" data="causality" viaX="6" viaY="45"></line>
+	<!-- アウグスティヌス-トマス・アクィナス -->
+	<line p1="world-14" p2="world-15" data="world" viaX="0" viaY="800"></line>
+	<!-- プロティノスーアウグスティヌス -->
+	<line p1="world-13" p2="world-14" data="world" viaX="0" viaY="100"></line>
+	<!-- トマス・アクィナスーオッカム -->
+	<line p1="world-15" p2="lang-1" data="repulsion" viaX="2" viaY="25"></line>
+	<!-- マキャベリーホッブズ -->
+	<line p1="social-3" p2="social-4" data="social" viaX="0" viaY="103"></line>
+	<!-- ホッブ-ロック -->
+	<line p1="social-4" p2="social-5" data="social" viaX="-4" viaY="33"></line>
+	<!-- デカルト-スピノザ -->
+	<line p1="perception-1" p2="world-16" data="repulsion" viaX="-3" viaY="15"></line>
+	<!-- スピノザ-ライプニッツ -->
+	<line p1="world-16" p2="world-17" data="repulsion" viaX="" viaY=""></line>
+	<!-- スピノザ-シェリング -->
+	<line p1="world-16" p2="perception-8" data="hint" viaX="1" viaY="6"></line>
+	<!-- ホッブズーデカルト -->
+	<line p1="mind-3" p2="mind-4" data="mind" viaX="-1" viaY="8"></line>
+	<!-- デカルト-ロック -->
+	<line p1="perception-1" p2="perception-2" data="perception" viaX="5" viaY="25"></line>
+	<!-- デカルト-ヒューム -->
+	<line p1="mind-4" p2="mind-5" data="repulsion" viaX="0" viaY="93"></line>
+	<!-- デカルト-カント -->
+	<line p1="perception-1" p2="perception-5" data="perception" viaX="0" viaY="117"></line>
+	<!-- デカルト-メルロ＝ポンティ -->
+	<line p1="mind-4" p2="mind-11" data="mind" viaX="3" viaY="15"></line>
+	<!-- ロック-バークリー -->
+	<line p1="perception-2" p2="perception-3" data="perception" viaX="1" viaY="5"></line>
+	<!-- バークリー-ヒューム -->
+	<line p1="perception-3" p2="perception-4" data="perception" viaX="0" viaY="20"></line>
+	<!-- ロック-モンテスキュー -->
+	<line p1="social-5" p2="social-6" data="social" viaX="6" viaY="27"></line>
+	<!-- モンテスキュー-ルソー -->
+	<line p1="social-6" p2="social-7" data="social" viaX="" viaY=""></line>
+	<!-- ヒューム-カント -->
+	<line p1="perception-4" p2="perception-5" data="perception" viaX="" viaY=""></line>
+	<!-- ヒューム-カント -->
+	<line p1="causality-3" p2="causality-4" data="causality" viaX="" viaY=""></line>
+	<!-- カント-フィヒテ -->
+	<line p1="perception-5" p2="perception-6" data="perception" viaX="" viaY=""></line>
+	<!-- カント-フッサール -->
+	<line p1="perception-5" p2="perception-9" data="perception" viaX="3" viaY="17"></line>
+	<!-- カント-ベンサム -->
+	<line p1="social-9" p2="social-10" data="repulsion" viaX="0.7" viaY=""></line>
+	<!-- フィヒテ-シェリング -->
+	<line p1="perception-6" p2="perception-8" data="perception" viaX="-2" viaY="0"></line>
+	<!-- シェリング-ヘーゲル -->
+	<line p1="perception-7" p2="perception-8" data="perception" viaX="" viaY="5"></line>
+	<!-- ベンサム-ミル -->
+	<line p1="social-10" p2="social-12" data="social" viaX="0" viaY="45"></line>
+	<!-- ヘーゲル-ショーペンハウアー -->
+	<line p1="history-3" p2="history-4" data="repulsion" viaX="4" viaY="18"></line>
+	<!-- ヘーゲル-キルケゴール -->
+	<line p1="history-3" p2="life-9" data="repulsion" viaX="5" viaY="43"></line>
+	<!-- ヘーゲル-ニーチェ -->
+	<line p1="history-3" p2="history-7" data="repulsion" viaX="0" viaY="0"></line>
+	<!-- ヘーゲル-ダーウィン -->
+	<line p1="history-3" p2="history-5" data="history" viaX="-2" viaY="25"></line>
+	<!-- ヘーゲル-マルクス -->
+	<line p1="history-3" p2="history-6" data="history" viaX="" viaY=""></line>
+	<!-- ヘーゲル-ラカン -->
+	<line p1="mind-6" p2="mind-9" data="mind" viaX="-3" viaY="36"></line>
+	<!-- ショーペンハウアー-ニーチェ -->
+	<line p1="history-4" p2="history-7" data="history" viaX="-1" viaY="10"></line>
+	<!-- ショーペンハウアー-ニーチェ -->
+	<line p1="life-8" p2="life-10" data="life" viaX="-1" viaY="10"></line>
+	<!-- ショーペンハウアー-キルケゴール -->
+	<line p1="life-8" p2="life-9" data="life" viaX="3" viaY="17"></line>
+	<!-- キルケゴール-ニーチェ -->
+	<line p1="life-9" p2="life-10" data="life" viaX="-2" viaY="31"></line>
+	<!-- キルケゴール-ヤスパース -->
+	<line p1="life-9" p2="life-11" data="life" viaX="0" viaY="45"></line>
+	<!-- ハイデガー-サルトル -->
+	<line p1="life-12" p2="life-13" data="life" viaX="0" viaY="10"></line>
+	<!-- ニーチェ-サルトル -->
+	<line p1="life-10" p2="life-13" data="life" viaX="1" viaY="8"></line>
+	<!-- フッサール-ハイデガー -->
+	<line p1="perception-9" p2="perception-11" data="perception" viaX="-2" viaY="24"></line>
+	<!-- フッサール-デリダ -->
+	<line p1="perception-9" p2="lang-8" data="repulsion" viaX="" viaY=""></line>
+	<!-- フッサール-レヴィナス -->
+	<line p1="perception-9" p2="social-15" data="hint" viaX="2" viaY="15"></line>
+	<!-- 西田幾多郎-和辻哲郎 -->
+	<line p1="world-19" p2="world-20" data="world" viaX="0" viaY="10"></line>
+	<!-- ハイデガー-メルロ＝ポンティ -->
+	<line p1="perception-11" p2="perception-12" data="perception" viaX="" viaY=""></line>
+	<!-- マルクス-アルセチュール -->
+	<line p1="social-13" p2="social-16" data="social" viaX="0" viaY="80"></line>
+	<!-- マルクス-レヴィ＝ストロース -->
+	<line p1="mind-7" p2="mind-10" data="mind" viaX="1" viaY="19"></line>
+	<!-- ソシュール-レヴィ＝ストロース -->
+	<line p1="lang-3" p2="mind-10" data="hint" viaX="0" viaY="40"></line>
+	<!-- パース-ラッセル -->
+	<line p1="lang-2" p2="lang-4" data="lang" viaX="1" viaY="8"></line>
+	<!-- ラッセル-ウィトゲンシュタイン -->
+	<line p1="lang-4" p2="lang-5" data="lang" viaX="" viaY=""></line>
+	<!-- フロイト-レヴィ＝ストロース -->
+	<line p1="mind-8" p2="mind-10" data="mind" viaX="1" viaY="0"></line>
+	<!-- フロイト-ラカン -->
+	<line p1="mind-8" p2="mind-9" data="mind" viaX="0" viaY="22"></line>
+	<!-- サルトル-レヴィ＝ストロース -->
+	<line p1="life-13" p2="mind-10" data="repulsion" viaX="-1" viaY="3"></line>
+	<!-- レヴィ＝ストロース-バルト -->
+	<line p1="mind-10" p2="lang-7" data="hint" viaX="-1" viaY="0"></line>
+	<!-- レヴィナス-デリダ -->
+	<line p1="social-15" p2="social-19" data="social" viaX="0" viaY="10"></line>
+	<!-- アルセチュール-フーコー -->
+	<line p1="social-16" p2="social-18" data="social" viaX="5" viaY="0"></line>
+	<!-- ウィトゲンシュタイン-クーン -->
+	<line p1="lang-5" p2="history-9" data="hint" viaX="1" viaY="7"></line>
+	<!-- ラインここまで -->
+	<!-- ラインテキストここから -->
+	<lineText data="world">今いるこの世界は何でできているのか。また、どのようしてに誕生したのか。世界の構造や成り立ちに関連する思想。</lineText>
+	<lineText data="mind">人の魂や意識はどのように存在しているのか。また、どこからやってきたのか。魂や意識に関する思想。</lineText>
+	<lineText data="perception">人間は外界をどのように認識しているのか。世界は私たちが認識している姿をしているのか。人間の認識に関する思想。</lineText>
+	<lineText data="life">我々はいかにして生きるべきなのか。また、人生にはどのような意味や目的があるのか。人の生き方に関する思想。</lineText>
+	<lineText data="lang">言語とはどのようなもであるか。また、言語は人や世界にどのような影響を与えるのか。言語に関する思想。</lineText>
+	<lineText data="social">社会はどのような構造になっているのか。また、理想の社会とは一体どんなものであるか。人の社会に関する思想。</lineText>
+	<lineText data="history">これまでに生命や人間社会の歴史はどのようにして変遷してきたのか。また、これからどのように変遷するのか。歴史に関する思想。</lineText>
+	<lineText data="causality">この世界の因果はどのようになっているのか。また、因果律を人はどのように認識するのか。因果に関する思想。</lineText>
+	<!-- ラインテキストここまで -->
+</theData>

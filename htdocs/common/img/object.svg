@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="362" height="94" viewBox="0 0 362 94">
+  <defs>
+    <filter id="長方形_7" x="244" y="0" width="118" height="64" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="思想名" x="258" y="7" width="90" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_12" data-name="グループ 12" transform="translate(-150 -1878)">
+    <path id="パス_25" data-name="パス 25" d="M2060.612-699.5H2013.7" transform="translate(-1650.701 2631.416)" fill="none" stroke="#56bec3" stroke-width="40"/>
+    <path id="パス_26" data-name="パス 26" d="M2060.612-699.5H2013.7" transform="translate(-1610.791 2631.416)" fill="none" stroke="#edd778" stroke-width="40"/>
+    <path id="パス_27" data-name="パス 27" d="M2060.612-699.5H2013.7" transform="translate(2336.701 1232.584) rotate(180)" fill="none" stroke="#598fd9" stroke-width="40"/>
+    <path id="パス_28" data-name="パス 28" d="M2060.612-699.5H2013.7" transform="translate(2383.611 1232.584) rotate(180)" fill="none" stroke="#56bec3" stroke-width="40"/>
+    <g id="楕円形_25" data-name="楕円形 25" transform="translate(468 1957) rotate(180)" fill="#fff" stroke="#edd778" stroke-width="15">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="32.5" fill="none"/>
+    </g>
+    <text id="哲学者名" transform="translate(230 1939)" fill="#fff" font-size="20" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN"><tspan x="-80" y="0">哲学者名</tspan></text>
+    <g id="楕円形_26" data-name="楕円形 26" transform="translate(388 1957) rotate(180)" fill="#fff" stroke="#56bec3" stroke-width="15">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="32.5" fill="none"/>
+    </g>
+    <g id="楕円形_27" data-name="楕円形 27" transform="translate(258 1907)" fill="#fff" stroke="#598fd9" stroke-width="15">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="32.5" fill="none"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 150, 1878)" filter="url(#長方形_7)">
+      <rect id="長方形_7-2" data-name="長方形 7" width="88" height="34" transform="translate(249 5)" fill="#444"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 150, 1878)" filter="url(#思想名)">
+      <text id="思想名-2" data-name="思想名" transform="translate(263 30)" fill="#fff" font-size="20" font-family="HiraKakuProN-W3, Hiragino Kaku Gothic ProN"><tspan x="0" y="0">思想名</tspan></text>
+    </g>
+  </g>
+</svg>

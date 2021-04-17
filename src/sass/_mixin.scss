@@ -1,0 +1,48 @@
+@mixin line($strokeColor:#5A5A5A) {
+	fill: none;
+	stroke-width: 2;
+	stroke: $strokeColor;
+}
+@mixin developLine($strokeColor:#5A5A5A) {
+	stroke-width: 40;
+	stroke-linejoin: round;
+	fill: none;
+	stroke: $strokeColor;
+	cursor: pointer;
+}
+@mixin sidemenuicon($strokeColor:#5A5A5A) {
+	display: inline-block;
+	height: 2vw;
+	width: 2vw;
+	box-sizing: border-box;
+	background-color: white;
+	// position: absolute;
+	border-radius: 50%;
+	border: 0.4vw solid $strokeColor;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+@mixin icon($strokeColor:#5A5A5A) {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	box-sizing: border-box;
+	background-color: white;
+	// position: absolute;
+	border-radius: 50%;
+	border: 8px solid $strokeColor;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+$lifeColor: #8581ea;
+$mindColor: #EFD873;
+$worldColor: #1FB574;
+$historyColor: #5ACCD1;
+$causalityColor: #FFA55A;
+$perceptionColor: #FF77B6;
+$socialColor: #598FD9;
+$langColor: #F57E7E;
+$godColor: #FFFF00;
+$natureColor: #22B573;
