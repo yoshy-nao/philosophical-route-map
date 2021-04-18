@@ -9,7 +9,7 @@
 		<label for="range" class="range__minus"><span>-</span></label>
 		<label for="range" class="range__plus"><span>+</span></label>
 	</div>
-	<a href="/develop/htdocs#how" class="help"><img src="/common/img/help_icon.svg" class="help__icon"><span class="help__text">図の見方</span></a>
+	<a href="/#how" class="help"><img src="/common/img/help_icon.svg" class="help__icon"><span class="help__text">図の見方</span></a>
 	<div class="table">
 		<ul class="table__list">
 			<li class="table__list__item"><span class="table__list__item__icon--world"></span><span class="table__list__item__word">世界</span></li>
