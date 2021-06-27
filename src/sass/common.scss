@@ -43,17 +43,19 @@ a {
 .single-diagram {
 	height: 100vh;
 	display: flex;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 	&__title {
 		position: absolute;
-		top: 3vw;
-		width: 100%;
-		margin-right: 10vw;
+		top: 7vw;
+		right: 4vw;
+		width: 26%;
 		font-size: 2vw;
 		line-height: 2.5vw;
-		text-align: center;
+		text-align: left;
 		font-weight: 500;
+		border-bottom: 1px solid #f7f8f8;
+		padding-bottom: .5vw;
 	}
 	&__subtitle {
 		font-size: 1.2vw;
@@ -67,20 +69,18 @@ a {
 		height: 628px;
 		overflow: hidden;
 		border: 1px solid #888;
-		margin-top: 6vw;
-		margin-right: 10vw;
+		margin-right: 11vw;
 	}
 	&__content {
 		position: absolute;
 		right: 4vw;
+		top: 30%;
 		width: 26%;
-		margin-top: 4vw;
 		&__text{
 			font-size: 1vw;
 			line-height: 2em;
 			width: 100%;
 			text-align:justify;
-			margin-bottom: 3vw;
 		}
 		&__button {
 			text-align: center;
@@ -191,32 +191,32 @@ a {
 	}
 	&__heading {
 		margin: 2vw 2vw 1vw;
-		padding-left: 1vw;
+		padding-left: 2vw;
 		font-size: 1.5vw;
 		line-height: 2.5vw;
 		&.life {
-			border-left: 1vw solid $lifeColor;
+			border-left: .5vw solid $lifeColor;
 		}
 		&.world {
-			border-left: 1vw solid $worldColor;
+			border-left: .5vw solid $worldColor;
 		}
 		&.history {
-			border-left: 1vw solid $historyColor;
+			border-left: .5vw solid $historyColor;
 		}
 		&.mind {
-			border-left: 1vw solid $mindColor;
+			border-left: .5vw solid $mindColor;
 		}
 		&.causality {
-			border-left: 1vw solid $causalityColor;
+			border-left: .5vw solid $causalityColor;
 		}
 		&.social {
-			border-left: 1vw solid $socialColor;
+			border-left: .5vw solid $socialColor;
 		}
 		&.lang {
-			border-left: 1vw solid $langColor;
+			border-left: .5vw solid $langColor;
 		}
 		&.perception {
-			border-left: 1vw solid $perceptionColor;
+			border-left: .5vw solid $perceptionColor;
 		}
 	}
 	img {

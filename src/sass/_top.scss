@@ -1,24 +1,7 @@
-.go-button {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	background-color: #E0A941;
-	text-align: center;
-	padding: 1vw 5vw;
-	border-radius: 3vw;
-	font-size: 1vw;
-	font-weight: bold;
-	filter: drop-shadow(0 .6vw 0 #8D6B36);
-	transition: all .5s;
-	&:hover {
-		filter: none;
-		transform: translate(-50%, .6vw);
-	}
-}
 .top {
 	position: relative;
 	width: 100%;
-	margin-bottom: 10vw;
+	margin: 0 auto 100px;
 	&-heading {
 		font-size: 60px;
 		font-weight: bold;
@@ -32,9 +15,9 @@
 		}
 	}
 	&__title {
-		font-size: 7vw;
+		font-size: 6vw;
 		position: absolute;
-		top: 44%;
+		top: 42%;
 		left: 50%;
 		transform: translateX(-50%);
 		text-align: center;
@@ -45,22 +28,7 @@
 		}
 	}
 	&__button {
-		top: 72%;
-	}
-	&__scroll {
-		position: absolute;
-		top: 88vh;
-		width: 100%;
-		font-size: 2vw;
-		font-weight: bold;
-		text-align: center;
-		&__text {
-			line-height: 1;
-		}
-		&__icon {
-			width: 2vw;
-			margin-top: .8vw;
-		}
+		top: 71%;
 	}
 }
 .introduction {
@@ -240,5 +208,21 @@
 			font-size: 20px;
 			line-height: 2.2em;
 		}
+	}
+}
+.go-button {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 0.1vw solid #E0A941;
+	text-align: center;
+	padding: 1vw 6vw;
+	border-radius: 3vw;
+	font-size: 1.2vw;
+	font-weight: bold;
+	transition: all .5s;
+	&:hover {
+		background-color: #E0A941;
+		color: #222;
 	}
 }

@@ -199,7 +199,7 @@ $(function(){
 		var range = document.querySelector('input[type="range"]');
 		var rangeValue = range.value;
 		var scale = rangeValue / 1000;
-		$('.top-container').css('transform', `scale(${scale}) rotate(0.001deg)`);
+		$('.top-container').css('transform', `scale(${scale}) rotate(0.1deg)`);
 		var yearsWidth = 1 / scale * 100 + '%';
 		$('.years').css('width', `${yearsWidth}`);
 		var b = 40 * (rangeValue / 1000);

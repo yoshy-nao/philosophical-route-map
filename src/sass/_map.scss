@@ -49,7 +49,7 @@
 		position: absolute;
 		width: 25px;
 		top: 50%;
-		left: 46px;
+		left: 44px;
 		transform: translateY(-50%);
 	}
 	&__text {
@@ -234,6 +234,8 @@
 	transform-origin: 50vw 50vh;
 	overflow: visible;
 	width: 100vw;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
 }
 .concept {
 	position: absolute;

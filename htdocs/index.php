@@ -5,11 +5,7 @@
 		<img src="/common/img/top.svg">
 	</div>
 	<h1 class="top__title">哲学思想路線図<br><span class="top__title--en">Philosophical Route Map</span></h1>
-	<a class="go-button top__button" href="/map/index.php">さっそく見る</a>
-	<div class="top__scroll">
-		<div class="top__scroll__text">Scroll</div>
-		<img class="top__scroll__icon blinking" src="/common/img/scroll.svg">
-	</div>
+	<a class="go-button top__button" href="/map/index.php">さっそく見てみる</a>
 </div>
 <div class="introduction">
 	<p class="introduction__text">
