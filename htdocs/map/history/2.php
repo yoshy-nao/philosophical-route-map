@@ -36,9 +36,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">天地創造・最後の審判<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">キリスト教</a></h2>
-	<!-- タイトルここまで -->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -73,7 +70,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">天地創造・最後の審判<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">キリスト教</a></h2>
+		<!-- タイトルここまで -->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">神が最初に創造した人間の男女であるアダムとイヴは神と共にエデンの園で暮らしていた。</span>
 			<span class="single-diagram__content__text__2 animation-text">しかし、ある日彼らは神との約束を破り、知恵のみを食べてしまった（原罪）。それによって、人間は楽園から追放されてしまい、地上での人間の歴史が始まる。</span>

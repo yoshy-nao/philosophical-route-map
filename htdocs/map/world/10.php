@@ -83,9 +83,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">四性質説<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アリストテレス(B.C.384-B.C.322)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -110,7 +107,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">四性質説<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アリストテレス(B.C.384-B.C.322)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">エンペクドクレスの四大元素論を認めた上で、まず4つの元素を構成要素として4つの性質が生まれる。</span><span class="single-diagram__content__text__2 animation-text">そして、その4つの性質から万物が生成される。</span></p>
 		<!-- <div id="button-1" class="single-diagram__content__button">四大元素論 <i class="fas fa-angle-double-right"></i></div> -->
 	</div>

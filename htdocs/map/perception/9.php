@@ -54,9 +54,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">現象学的還元<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">エトムント・フッサール(1859-1938)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -87,7 +84,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">現象学的還元<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">エトムント・フッサール(1859-1938)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">まず、主観の外側にある客観的世界が実在するということは証明できないので、判断停止（エポケー）する。</span>
 			<span class="single-diagram__content__text__2 animation-text">しかし、ものを見ている自我の存在は確認できる。</span>

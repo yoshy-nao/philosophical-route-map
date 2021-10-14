@@ -9,9 +9,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アルケー【数】<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ピタゴラス（B.C.582-B.C.496）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -23,7 +20,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">アルケー【数】<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ピタゴラス（B.C.582-B.C.496）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">万物の根源は数である。月の満ち欠けや音楽などあらゆるものには数学的な規則性がある。</span></p>
 
 	</div>

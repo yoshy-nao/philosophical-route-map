@@ -25,9 +25,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">エウダイモニア<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アリストテレス（B.C.384-B.C.322)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -46,7 +43,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">エウダイモニア<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アリストテレス（B.C.384-B.C.322)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">自分の可能性を実現し、人間としての活動を完全に果たすべきである。</span>
 			<span class="single-diagram__content__text__2 animation-text">それによって、人は真の幸福（エウダイモニア）を得ることができる。</span>

@@ -23,9 +23,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">事行<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ヨハン・ゴットリープ・フィヒテ（1762-1814）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -43,7 +40,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">事行<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ヨハン・ゴットリープ・フィヒテ（1762-1814）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">まず、自我という存在を行為の出発点とする。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、周囲の自然（非我）を認識し、その弊害を乗り越えて自我を維持するために葛藤することで自由を目指す。このように自分を維持しようと進む根源的な自我の働きを「事行」と呼ぶ。</span>

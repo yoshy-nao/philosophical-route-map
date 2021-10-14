@@ -18,9 +18,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">無意識<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジークムント・フロイト(1856-1939)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -43,7 +40,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">無意識<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジークムント・フロイト(1856-1939)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">個人を動かしているのは脳の意識している領域ではなく、無意識の領域である。そして、その無意識を動かしている力はリビトー（欲望）であり、これは性的衝動を発動させる力である。つまり、人間の無意識の裏側には、様々な性的な動機が働いている。</span></p>
 
 	</div>

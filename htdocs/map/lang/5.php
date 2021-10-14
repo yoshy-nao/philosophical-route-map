@@ -15,9 +15,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">写像理論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ルートヴィヒ・ウィトゲンシュタイン（1889-1951）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -31,7 +28,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">写像理論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ルートヴィヒ・ウィトゲンシュタイン（1889-1951）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">世界には「事柄」と「その事柄を表す言語」が1対1で存在しており、科学的な言語（〜は〜であるという文）は事柄と同じ数だけ存在している。つまり、現実の世界を写しとっている科学的な言語を全て分析すれば、真理に到達できる。</span>
 		</p>

@@ -62,9 +62,6 @@ $('.single-diagram__content__text__1').addClass('is-animation-text');
 }, 1000);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">本来性<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">マルティン・ハイデガー（1889-1976）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -89,7 +86,10 @@ $('.single-diagram__content__text__1').addClass('is-animation-text');
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">本来性<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">マルティン・ハイデガー（1889-1976）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">本来は存在について問う能力を持つ人間だが、普段は自分の存在を忘れ、日常生活に没頭している（頽落）。</span>
 			<span class="single-diagram__content__text__2 animation-text">しかし、自分の死の可能性と向き合うとき、存在の本来性に目覚める。</span>

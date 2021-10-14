@@ -10,9 +10,6 @@
 	.object-text--bottom {top: 108%;}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">市民社会・国家<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -37,7 +34,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">市民社会・国家<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">まず、自由の相互承認が制度化された市民社会がある。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、経済的な自由競争の激化を調停する国家がある。</span>

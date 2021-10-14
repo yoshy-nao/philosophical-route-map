@@ -60,9 +60,6 @@
 	}, 1500);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">シニシズム<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ディオゲネス（B.C.412-B.C.323）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -89,7 +86,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">シニシズム<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ディオゲネス（B.C.412-B.C.323）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">必要なものを最小限に抑え、あらゆる欲望、地位、社会の制約を否定し、自然に従って生きる。</span>
 			<span class="single-diagram__content__text__2 animation-text">それによって、徳を得ることができ、真の自由と心の満足を得ることができる。</span>

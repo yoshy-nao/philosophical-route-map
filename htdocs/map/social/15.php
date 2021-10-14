@@ -12,9 +12,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">他者論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">エマニュエル・レヴィナス（1906-1996)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -44,7 +41,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">他者論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">エマニュエル・レヴィナス（1906-1996)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">他者の顔が目の前に現れるとき、絶対に助けなければならないという倫理的な責任を感じさせる対象になる。こうした他者性に基づく倫理を慈愛と呼ぶ。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、対等性に基づく正義とのバランスを強調した。</span>

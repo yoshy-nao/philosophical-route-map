@@ -40,9 +40,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">進歩史観<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ヘーゲル(1770-1831)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -80,7 +77,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">進歩史観<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ヘーゲル(1770-1831)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">対立とその解消（弁証法）を繰り返すことによって、人類の歴史は進歩し続けている。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、その最終的なゴールは真の自由が実現された状態（人倫）である。また、その歴史を動かしているものの根底には絶対精神がある。</span></p>

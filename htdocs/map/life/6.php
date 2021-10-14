@@ -62,7 +62,7 @@
 </script>
 <div class="single-diagram">
 	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アパテイア<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ゼノン（B.C.335-B.C.263）</a></h2>
+	<h2 class="single-diagram__content__title">アパテイア<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ゼノン（B.C.335-B.C.263）</a></h2>
 	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
@@ -91,7 +91,7 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">富や名誉といった人間の欲望や感情に起因するものに執着するのは、神々の摂理（ロゴス）に背く態度である。従って、欲望を理性で制限し禁欲的に生きる。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、徳を追求し実践することによって、自然と調和できるようになり、欲望から解き放たれた境地であるアパテイアに到達することができる。</span>

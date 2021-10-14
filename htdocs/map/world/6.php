@@ -72,9 +72,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">スペルマタ<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アナクサゴラス(B.C.500-B.C.428)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -93,7 +90,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">スペルマタ<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アナクサゴラス(B.C.500-B.C.428)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">あらゆるものに変化しうる粒子を「万物の種子（スペルマタ）」と呼び、これが万物の原理である。</span><span class="single-diagram__content__text__2 animation-text">また、この無数の種子に運動をもたらす原理として「ヌース（知性）」というものがある。</span><span class="single-diagram__content__text__3 animation-text">そして、全ての種子の混沌とした集まりだった宇宙にヌースが働いたことで現在のような秩序が生まれた。</span></p>
 	</div>
 	<!-- ボックスここまで -->

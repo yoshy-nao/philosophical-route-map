@@ -32,9 +32,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">純粋経験<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">西田 幾多郎(1870-1945)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -51,7 +48,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">純粋経験<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">西田 幾多郎(1870-1945)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">ありのままの世界では主観と客観が分かれる前の状態（主客未分）である。この主客未分の状態の経験を純粋経験と呼び、この経験が真の存在である。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、その後思考のはたらきによって主観と客観に分かれる。</span>

@@ -31,9 +31,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">エロス<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">プラトン（B.C.427-B.C.347)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -55,7 +52,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">エロス<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">プラトン（B.C.427-B.C.347)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">もともと、人間の魂はイデア界にあったが、その頃の記憶は忘れてしまった。</span><span class="single-diagram__content__text__2 animation-text">しかし、自分に欠けているものに対する衝動であるエロスを持てば、肉体の外側にあるイデアという真の世界の存在に気付くことができる。</span></p>
 	</div>
 	<!-- ボックスここまで -->

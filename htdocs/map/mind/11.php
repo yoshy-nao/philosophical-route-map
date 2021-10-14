@@ -20,10 +20,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">身体図式<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">モーリス・メルロ＝ポンティ（1908-1961）
-</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -42,7 +38,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">身体図式<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">モーリス・メルロ＝ポンティ（1908-1961）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">身体はただの物体ではなく、精神と世界をつなぐものである。身体は意識とは異なる独自の意思を持ち、お互いに連絡をとりあって、行動のための図式（身体図式）を作っている。</span></p>
 	</div>
 	<!-- ボックスここまで -->

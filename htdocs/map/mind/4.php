@@ -25,10 +25,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">生得観念・心身二元論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ルネ・デカルト(1596-1650)
-</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -53,7 +49,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">生得観念・心身二元論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ルネ・デカルト(1596-1650)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">意識は神によって与えられたものである（生得観念）。</span><span class="single-diagram__content__text__2 animation-text">そして、どんなに疑っても私という意識の存在だけは確固たるものであり、精神的な意識と物質的な身体は全く別次元のものである（心身二元論）。</span></p>
 	</div>
 	<!-- ボックスここまで -->

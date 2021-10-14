@@ -34,9 +34,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">非物質論的観念論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジョージ・バークリー(1685-1753)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -58,7 +55,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">非物質論的観念論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジョージ・バークリー(1685-1753)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">存在するとは知覚されることである。つまり、客観は存在せず、全ては人間の意識（主観）の中のものである。そして、我々の意識や観念は全て神が与えたものである。</span>
 		</p>

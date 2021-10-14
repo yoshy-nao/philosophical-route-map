@@ -19,9 +19,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">ペシミズム<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アルトゥル・ショーペンハウアー(1788-1860)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -42,7 +39,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">ペシミズム<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アルトゥル・ショーペンハウアー(1788-1860)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">歴史は進歩しているのではなく、変化しているに過ぎない。盲目的な意志による争いは永遠に続き、個人の苦しみは消えることはない（ペシミズム）。</span></p>
 	</div>

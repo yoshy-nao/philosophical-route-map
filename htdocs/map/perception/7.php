@@ -48,9 +48,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">弁証法<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -81,7 +78,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">弁証法<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">主観の上に現れる現象にのみ焦点を当てる。</span>
 			<span class="single-diagram__content__text__2 animation-text">まず、人間の意識上にはテーゼとアンチテーゼという二項対立の原理が働いている。</span>

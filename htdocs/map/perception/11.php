@@ -38,9 +38,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">開示性<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">マルティン・ハイデガー（1889-1976）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -62,7 +59,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">開示性<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">マルティン・ハイデガー（1889-1976）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">客観的な世界がもともとあるのではなく、人間が認識し意味を与えることによって、その人の世界を開いている。人間は周りの事物を自らの固有の関心で捉える（気遣い）。</span>
 			<span class="single-diagram__content__text__2 animation-text">それによって、自分の意識の中に生きる世界を開いている（開示性）。</span>

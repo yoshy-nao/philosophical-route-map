@@ -57,7 +57,8 @@
 			padding: 20px 0;
 			&__title {
 				font-size: 30px;
-				border-bottom: 2px solid #FFF;
+				line-height: 1.6em;
+				border-bottom: 1px solid #FFF;
 				&--explain {
 					font-size: 18px;
 					margin: 0;
@@ -183,7 +184,7 @@
 				display: flex;
 				flex-wrap: wrap;
 				justify-content: space-between;
-				margin-top: 25px;
+				margin-top: 15px;
 				&__text {
 					width: 72%;
 					margin: 0;
@@ -216,7 +217,7 @@
 	transform: translateX(-50%);
 	border: 0.1vw solid #E0A941;
 	text-align: center;
-	padding: 1vw 6vw;
+	padding: 1vw 4vw;
 	border-radius: 3vw;
 	font-size: 1.2vw;
 	font-weight: bold;

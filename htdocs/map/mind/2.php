@@ -20,10 +20,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">プシュケー<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アリストテレス（B.C.384-B.C.322)
-</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -43,6 +39,9 @@
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
 	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">プシュケー<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アリストテレス（B.C.384-B.C.322)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">魂(プシュケー)と肉体は異なる2つの物質ではなく、一つの統合体である。</span></p>
 	</div>
 	<!-- ボックスここまで -->

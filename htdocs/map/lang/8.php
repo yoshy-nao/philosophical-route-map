@@ -19,9 +19,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">脱構築<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジャック・デリダ（1930-2004)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -36,7 +33,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">脱構築<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジャック・デリダ（1930-2004)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">オリジナル（声や思考）とそれを置き換えたコピー（文字）は必ずしも一致せず、変換される際にズレ（差延）が生じる。</span>
 			<span class="single-diagram__content__text__2 animation-text">そこで、オリジナルとコピーはそれぞれ独立したものとして、切り離して考えるべきである。</span>

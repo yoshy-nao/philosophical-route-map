@@ -37,9 +37,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">生得観念<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ルネ・デカルト(1596-1650)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -65,7 +62,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">生得観念<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ルネ・デカルト(1596-1650)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">世界は認識するもの（主観）と認識されるもの（客観）に分類される。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、主観には全知全能な神によって与えられた、物事を正しく認識する能力（生得観念）がある。</span>

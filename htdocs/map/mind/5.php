@@ -31,9 +31,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">知覚の束<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">デイヴィット・ヒューム（1711-1776)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -57,7 +54,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">知覚の束<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">デイヴィット・ヒューム（1711-1776)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">人間は「暑い」「痛い」といった感覚が集まった「知覚の束」に過ぎない。そしてその知覚の中身は刻々と変化していくため、意識というものは実体はない物である。</span></p>
 
 	</div>

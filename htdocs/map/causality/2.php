@@ -21,9 +21,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">神の存在証明<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">トマス・アクィナス（1225-1274)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -47,7 +44,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">神の存在証明<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">トマス・アクィナス（1225-1274)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">あらゆるものが原因と結果の連続によって起こっていると唱えるアリストテレス哲学を踏まえ、全てを作り出した根本的な原因（第一因）を神と位置付ける。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、その神は全てを生み出し、不動の動者として常に存在し続ける。</span>

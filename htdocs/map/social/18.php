@@ -8,9 +8,6 @@
 	.word--2 { top: 73%; left: 50%;}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">パノプティコン<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ミシェル・フーコー（1926-1984)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -38,7 +35,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">パノプティコン<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ミシェル・フーコー（1926-1984)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">多くの人口を効率よく管理するためには、常に監視せずに済むよう、メンバーに監視されているかもしれないという意識を内面化させ、自発的に服従させることが必要である。そのために、あらゆる集団の中で、そのときどきに力関係が生み出され、それが権力関係の基盤になる。</span>
 		</p>

@@ -28,9 +28,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">存在のアナロギア<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">トマス・アクィナス（1225-1274)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -54,7 +51,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">存在のアナロギア<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">トマス・アクィナス（1225-1274)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">世界の根本原因は神であり、万物は神の被造物である。</span><span class="single-diagram__content__text__2 animation-text">したがって、全てのものは神の本質的な部分である善の性質を持っている。</span></p>
 
 	</div>

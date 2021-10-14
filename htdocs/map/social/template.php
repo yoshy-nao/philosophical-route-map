@@ -2,7 +2,7 @@
 <?php $link = "#life-1";?>
 <div class="single-diagram">
 	<!-- タイトル -->
-	<h2 class="single-diagram__title ">思想<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">名前(0000-0000)</a></h2>
+	<h2 class="single-diagram__content__title">思想<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">名前(0000-0000)</a></h2>
 	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
@@ -12,7 +12,7 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
 		<p class="single-diagram__content__text">テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。テキスト。</p>
 		
 	</div>

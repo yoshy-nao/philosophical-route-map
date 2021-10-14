@@ -29,9 +29,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">イデア界と現象界<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">プラトン(B.C.427-B.C.347)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -52,7 +49,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">イデア界と現象界<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">プラトン(B.C.427-B.C.347)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">この世界にはイデアが存在するイデア界と現実世界（現象界）がある。</span><span class="single-diagram__content__text__2 animation-text">そして、万物はイデア界にあるイデアの模造品（ミメーシス）である。したがって、物事の本質を知るためには、イデアを探求する必要がある。</span></p>
 
 	</div>

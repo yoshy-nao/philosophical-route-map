@@ -21,9 +21,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">言語ゲーム<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ルートヴィヒ・ウィトゲンシュタイン（1889-1951）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -40,7 +37,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">言語ゲーム<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ルートヴィヒ・ウィトゲンシュタイン（1889-1951）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">後にウィトゲンシュタイン本人が自らの写像理論を否定して唱えた説。</span>
 			<span class="single-diagram__content__text__2 animation-text">日常言語は、時と場合によって意味合いが変わってくる。</span>

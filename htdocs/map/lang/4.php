@@ -19,9 +19,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">記述理論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">バートランド・ラッセル（1872-1970）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -38,7 +35,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">記述理論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">バートランド・ラッセル（1872-1970）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">そのままでは真偽が問えない文章や命題について、それを構成する言葉の関係性を明らかにすることで、論理学的に扱うことを可能にする。</span>
 		</p>

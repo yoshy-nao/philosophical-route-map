@@ -15,9 +15,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">流出説<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">プロティノス(250-270)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -28,7 +25,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">流出説<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">プロティノス(250-270)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">最初に完全なる一者（一なるもの。ト・ヘン）があって、そこから万物が流出する。</span></p>
 	</div>
 	<!-- ボックスここまで -->

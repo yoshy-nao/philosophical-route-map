@@ -1,9 +1,6 @@
 <?php include("../../parts/header.php"); ?>
 <?php $link = "#social-7";?>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">一般意志<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジャン＝ジャック・ルソー（1712-1778)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -27,7 +24,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">一般意志<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジャン＝ジャック・ルソー（1712-1778)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">人民が意志を直接表明する直接民主制が理想である。</span>
 			<span class="single-diagram__content__text__2 animation-text">それによって、社会構成員全員に共通する利益を目指す一般意志に基づいて政治を運営するべきである。</span>

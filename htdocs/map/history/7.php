@@ -1,9 +1,6 @@
 <?php include("../../parts/header.php"); ?>
 <?php $link = "#history-7";?>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">永劫回帰<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ニーチェ(1844-1900)</a></h2>
-	<!-- タイトルここまで -->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
 		<svg class="fadeout" width="628px" height="628px" viewBox="0 0 628 628" style="position:absolute; top:0;">
@@ -71,7 +68,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">永劫回帰<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ニーチェ(1844-1900)</a></h2>
+		<!-- タイトルここまで -->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">歴史には進歩や前進はなく、ただ変化しかない。結局は同じことの繰り返しである。しかし、永劫回帰を肯定的に捉え、「これが人生か、ならばもう一度」と強く生きられるか。それこそが、既存の価値に捉われず生きる人間の新たな価値基準である。</span>
 		</p>

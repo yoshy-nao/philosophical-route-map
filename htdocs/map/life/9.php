@@ -124,9 +124,6 @@ setTimeout(function(){
 }, 1000);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title">実存の3段階<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">セーレン・キルケゴール（1813–1855）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -162,7 +159,10 @@ setTimeout(function(){
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">実存の3段階<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">セーレン・キルケゴール（1813–1855）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">私にとっての真理を探求する立場を実存主義という。そして、人間が真の実存に到達するための道のりは三段階ある。</span>
 			<span class="single-diagram__content__text__2 animation-text">第一段階は欲望のままに快楽を追求する「美的実存」。</span>

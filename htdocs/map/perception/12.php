@@ -30,9 +30,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">可逆性<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">モーリス・メルロ＝ポンティ（1908-1961）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -51,7 +48,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">可逆性<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">モーリス・メルロ＝ポンティ（1908-1961）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">身体と世界との接点に注目した時、身体ははたらきかける主体であると同時に、はたらきかけられる客体にもなっている。</span>
 		</p>

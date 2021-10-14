@@ -6,9 +6,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アルケー【空気】<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アナクシメネス(B.C.585-B.C.525)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -20,7 +17,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">アルケー【空気】<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アナクシメネス(B.C.585-B.C.525)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">万物の根源は空気である。死人は呼吸をしないことから、古代ギリシアでは息は生命そのものであると考えられていた。</span></p>
 
 	</div>

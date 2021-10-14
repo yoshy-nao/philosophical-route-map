@@ -42,9 +42,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">超越論的観念論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">イマヌエル・カント（1724-1804)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -70,7 +67,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">超越論的観念論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">イマヌエル・カント（1724-1804)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">客観の存在は認めてた上で、それが実際にどのような姿をしているかは正確には認識できないが、人間は特有の時間や空間を捉える枠組みによって認識することはできる。</span>
 			<span class="single-diagram__content__text__2 animation-text">枠組みによって認識されたものは、人間が共通して持っている感覚である「悟性」によって意識の中に「表象」として再構成される。</span></p>

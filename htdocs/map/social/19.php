@@ -14,9 +14,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">法の脱構築<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジャック・デリダ（1930-2004)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -42,7 +39,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">法の脱構築<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジャック・デリダ（1930-2004)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">法は根拠をそのもののうちに持つことができず、その外部に根拠を持たざるを得ないので、それは正義の最終的な根拠とは言えない。このように、法の絶対性を突き崩す思考作業は「法の脱構築」と呼ぶ。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、法に先立つ根拠としての正義は、他者への配慮にある。法を超えた他者への絶対的義務、見返りを持たない贈与こそが正義である。</span>

@@ -47,9 +47,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">唯物論的階級闘争<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">カール・マルクス(1818-1883)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -90,7 +87,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">唯物論的階級闘争<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">カール・マルクス(1818-1883)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">生産関係による物質的な仕組みを下部構造、精神的な仕組みを上部構造とし、上部構造は下部構造によって決定している。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、技術が進歩することでこれまでの生産関係が維持できなくなると階級闘争が起こり、それによって社会は進歩していく。</span>

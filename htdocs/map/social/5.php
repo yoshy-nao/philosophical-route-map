@@ -15,9 +15,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title">議会制民主主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジョン・ロック（1632-1704)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -50,7 +47,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">議会制民主主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジョン・ロック（1632-1704)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">民主的な国家にふさわしい制度は人民に選ばれた代表者が運営する議会制民主主義である。</span>
 			<span class="single-diagram__content__text__2 animation-text">社会契約は人民と政府が互いに契約を守ることで成立する。そのため、もし政府が人民の権利を抑圧し、契約に違反するならば、人民は自らの権利を守るために戦う権利（抵抗権）と、新しい政府を樹立する権利（革命権）を持つ。</span>

@@ -17,9 +17,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">共産主義社会<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">カール・マルクス（1813-1883)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -61,7 +58,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">共産主義社会<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">カール・マルクス（1813-1883)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">資本主義体制において資本家はより多くの利潤を得るために、労働者を少ない賃金で酷使する。</span>
 			<span class="single-diagram__content__text__2 animation-text">そのため、生産手段を持たない労働者にとって、本来人間の本質であるはずの労働は苦痛となり、自己の本質を失ってしまう（疎外）。</span>

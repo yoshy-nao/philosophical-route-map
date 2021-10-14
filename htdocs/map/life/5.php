@@ -39,9 +39,6 @@
 	}, 1500);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アタラクシア<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">エピクロス（B.C.342-B.C.270）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -59,7 +56,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">アタラクシア<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">エピクロス（B.C.342-B.C.270）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">欲望が多い政治や社会の雑踏から身を引き、必要最低限の条件で禁欲的な生活をするべきである。</span>
 			<span class="single-diagram__content__text__2 animation-text">それによって、快楽を得ることができる。快楽とは肉体における苦しみがなく、心が乱れていない状態（アタラクシア）のことであり、このアタラクシアを実現する人生こそが幸福である。</span>

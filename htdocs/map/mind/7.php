@@ -25,9 +25,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">階級意識<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">カール・マルクス（1813-1883)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -49,7 +46,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">階級意識<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">カール・マルクス（1813-1883)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">西洋哲学で伝統的に考えられてきた普遍的な人間性は存在しない。</span><span class="single-diagram__content__text__2 animation-text">労働によって自分が作り出したものの意味や価値を通じて自分は形成される。つまり、どの階級に属するかによって、人はものの見え方が変わってくる（階級意識）。</span></p>
 
 	</div>

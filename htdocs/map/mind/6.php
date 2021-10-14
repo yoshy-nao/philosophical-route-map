@@ -31,9 +31,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">絶対知<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -52,7 +49,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">絶対知<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ヘーゲル（1770-1831)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">人間の意識は最初の段階では、外に向けられた素朴な意識である。</span><span class="single-diagram__content__text__2 animation-text">これが他者や自然との関わりの中で、自分の自立と自由を手に入れることを目指す「自己意識」に変わる。</span><span class="single-diagram__content__text__3 animation-text">そしてさらに、対象への意識と自己意識が統合された「理性」に成長し、最終的に完全な認識能力を持つ「絶対知」に到達する。</span></p>
 
 	</div>

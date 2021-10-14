@@ -15,9 +15,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">絶対無<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">西田幾多郎(1870-1945)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -28,7 +25,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">絶対無<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">西田幾多郎(1870-1945)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">すべての根底には絶対無の場所がある。そして、すべてのものは絶対無によって生み出される。</span></p>
 
 	</div>

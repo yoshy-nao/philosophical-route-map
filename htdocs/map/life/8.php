@@ -57,9 +57,6 @@
 	}, 1000);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">生への意志 <br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アルトゥル・ショーペンハウアー（1788-1860）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -85,7 +82,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">生への意志 <br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アルトゥル・ショーペンハウアー（1788-1860）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">世界の全ての表象の根底には、盲目的な「生への意志」が存在している。そのため争いや苦しみは永遠に続く。</span>
 			<span class="single-diagram__content__text__2 animation-text">この苦しみから逃れるためには、同情することで苦しみを他人と共有するか、仏教によって解脱するべきである。</span>

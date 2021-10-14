@@ -41,9 +41,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">善悪二元論・終末論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ゾロアスター教</a></h2>
-	<!-- タイトルここまで -->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -89,7 +86,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">善悪二元論・終末論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ゾロアスター教</a></h2>
+		<!-- タイトルここまで -->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">この世界は最高神アフラ・マズダーによって創造された。</span>
 			<span class="single-diagram__content__text__2 animation-text">しかし、この世は善神と悪神の戦いの舞台となり、不安定になる。</span>

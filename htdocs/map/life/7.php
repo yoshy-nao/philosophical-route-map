@@ -31,9 +31,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">神の恩寵<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アウレリウス・アウグスティヌス（354-430)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -61,7 +58,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">神の恩寵<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アウレリウス・アウグスティヌス（354-430)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">
 				神の恩寵なくして、人間は善を意志することはできない。そのため、原罪を負う人間は神への信仰でしか救われない。

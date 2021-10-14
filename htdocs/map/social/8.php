@@ -1,9 +1,6 @@
 <?php include("../../parts/header.php"); ?>
 <?php $link = "#social-8";?>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">自由放任主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アダム・スミス（1723-1790)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -22,7 +19,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">自由放任主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アダム・スミス（1723-1790)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">市場に公的機関が介入するべきではない。</span>
 			<span class="single-diagram__content__text__2 animation-text">自由な経済競争下では個人が自分の利益を追求すると、神の見えざる手に導かれ、結果的に社会全体の利益に繋がる。</span>

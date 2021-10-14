@@ -1,9 +1,6 @@
 <?php include("../../parts/header.php"); ?>
 <?php $link = "#social-9";?>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">定言命法<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">イマヌエル・カント（1724-1804)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -23,7 +20,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">定言命法<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">イマヌエル・カント（1724-1804)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">人間界には従わなければならない普遍的な道徳法則がある。</span>
 			<span class="single-diagram__content__text__2 animation-text">この道徳法則は良心の声で「汝、〜すべし」と私たちの理性に訴えかけてくる。そして、その道徳は手段ではなく目的そのものでなくてはならない。つまり、道徳法則には無条件に従わなければならない（定言命法）。</span>

@@ -37,9 +37,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">鏡像段階論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジャック・ラカン（1901-1981）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -61,7 +58,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">鏡像段階論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジャック・ラカン（1901-1981）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">生まれたばかりは手や足などを一つの身体イメージに統合できない（寸断された身体）。</span><span class="single-diagram__content__text__2 animation-text">しかし、幼少期に鏡に映った自分を認識し、視覚的に「私」という統一されたイメージを作り出す（鏡像段階）。</span><span class="single-diagram__content__text__3 animation-text">それから、3〜5歳の時期に、母親や他人が私に対してどう接しているかを感じるうちに「私」とはどういう存在なのかを掴みはじめる。</span></p>
 
 	</div>

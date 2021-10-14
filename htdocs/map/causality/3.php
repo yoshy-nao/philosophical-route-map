@@ -14,9 +14,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">因果律批判<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">デイヴィッド・ヒューム（1711-1776)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -36,7 +33,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">因果律批判<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">デイヴィッド・ヒューム（1711-1776)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">因果律は経験による思い込みであって、自然界には存在しない。これは科学の根底を揺るがすような指摘だった。</span>
 		</p>

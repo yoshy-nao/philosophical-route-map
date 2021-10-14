@@ -13,9 +13,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">社会契約説<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">トマス・ホッブス（1588-1679)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -42,7 +39,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">社会契約説<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">トマス・ホッブス（1588-1679)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">ルールのない自然状態でお互いの権利を主張すれば、際限なく争いが起こる（万人の万人に対する争い）。</span>
 			<span class="single-diagram__content__text__2 animation-text">そこで、ルールを破るものがいたら取り締まる強い権力が必要となってくる。それこそが国家であり、人々は国家に権利を譲りわたす社会契約を結でいる。</span>

@@ -41,9 +41,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">三権分立<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">シャルル・ド・モンテスキュー（1689-1775)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -83,7 +80,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">三権分立<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">シャルル・ド・モンテスキュー（1689-1775)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">権力が一箇所に集中している国家においては、政治の自由は保証されない。</span>
 			<span class="single-diagram__content__text__2 animation-text">そのため、司法権、立法権、行政権を独立させるべきである。</span>

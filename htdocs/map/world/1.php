@@ -6,9 +6,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アルケー【水】<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">タレス(B.C.624-B.C.526)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -20,7 +17,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">アルケー【水】<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">タレス(B.C.624-B.C.526)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">万物の根源は水である。この思想から、神話によらず世界の成り立ちを合理的に説明する哲学という営みが始まる。</p>
 	</div>
 	<!-- ボックスここまで -->

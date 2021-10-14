@@ -81,9 +81,6 @@ $(function(){
 });
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">ノマド<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジル・ドゥルーズ（1925-1995）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -109,7 +106,10 @@ $(function(){
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">ノマド<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジル・ドゥルーズ（1925-1995）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">１つの場所に留まらないノマド（遊牧民）の生き方が理想である。それは、多種多様な価値が根のように縦横無尽に広がるリゾームを欲望の赴くままに行き来し、楽しむ生き方である。</span>
 		</p>

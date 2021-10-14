@@ -28,9 +28,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">同一哲学<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・シェリング（1775-1854）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -44,7 +41,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">同一哲学<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・シェリング（1775-1854）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">主体（精神）と客体（自然）はもともと絶対的同一者から生まれた。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、精神と世界は、その絶対者の異なった現れに過ぎず、分離させることはできない。</span>

@@ -20,9 +20,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">アンガージュマン<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジャン＝ポール・サルトル（1906-1995）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -45,7 +42,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">アンガージュマン<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジャン＝ポール・サルトル（1906-1995）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">現状を変えるためには、社会や政治に積極的に参加（アンガージュマン）しなければならない。それによって、自らの手で理想の社会を作り上げていくべきである。</span>
 		</p>

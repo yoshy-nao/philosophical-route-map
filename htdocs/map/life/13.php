@@ -41,9 +41,6 @@
 	});
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">実存<br><a href="http://localhost/#life-13" class="single-diagram__subtitle">ジャン＝ポール・サルトル（1906-1995）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -59,7 +56,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">実存<br><a href="http://localhost/#life-13" class="single-diagram__content__subtitle">ジャン＝ポール・サルトル（1906-1995）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">「実存は本質に先立つ」人間はまずこの世に存在する。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、その後の行動によって本質が決まる。つまり、人間はどんな時も根本的に自由であり、自分の責任で何かを選択しなければならない。</span>

@@ -44,9 +44,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">哲人政治<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">プラトン（B.C.427-B.C.347)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -85,7 +82,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">哲人政治<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">プラトン（B.C.427-B.C.347)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">善のイデアを弁えた哲学者による理性的な統治を理想とした。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、国家は統治者階級・防衛者階級・生産者階級から成り、彼らが持つ理性・意志・欲望が、それぞれ知恵・勇気・節制となったとき、正義が生まれ理想国家が誕生するとした。</span>

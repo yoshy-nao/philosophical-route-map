@@ -25,9 +25,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">神の国・地上の国<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アウグスティヌス（354-430)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -55,7 +52,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">神の国・地上の国<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アウグスティヌス（354-430)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">神を愛し自分を蔑む愛と自分を愛し神を蔑む愛という２つの神の愛によって、神の国と地上の国を作られた。</span><span class="single-diagram__content__text__2 animation-text">そして、地上の国が神への愛に目覚め、神への愛に基づいた正義と平和を実現すれば、そのまま神の国になりうる可能性を秘めている。</span></p>
 
 	</div>

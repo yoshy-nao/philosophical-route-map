@@ -20,9 +20,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">国家のイデオロギー装置<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ルイ・アルチュセール（1918-19090)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -42,7 +39,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">国家のイデオロギー装置<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ルイ・アルチュセール（1918-19090)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">軍隊や警察のような国家権力による暴力（国家の抑圧装置）をあらゆる場面で行使し、暴力によって国民を脅し続けるわけにはいかない。</span>
 			<span class="single-diagram__content__text__2 animation-text">そこで、自分から体制に従う、従順な国民を作った方が都合がよい。そのために、学校やメディア、文化的制度などの国家のイデオロギー装置によって、国民の内面にイデオロギー（虚偽意識）を埋め込んでいく。</span>

@@ -5,9 +5,6 @@
 	.notion--1 {width: 51%; height: 51%; top: 50%; left: 50%;}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">最大多数の最大幸福<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジェレミ・ベンサム（1748-1832)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -23,7 +20,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">最大多数の最大幸福<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジェレミ・ベンサム（1748-1832)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">人間は誰しも快楽を求めて苦痛を避ける。快楽の増大に役立つことが善であり、苦痛をもたらすことが悪である。</span>
 			<span class="single-diagram__content__text__2 animation-text">その上で、快楽の度合いを量的に計算し、各個人の幸福度の合計を最大にするべきである。</span>

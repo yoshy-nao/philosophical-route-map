@@ -64,9 +64,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">四大元素論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">エンペドクレス(B.C.490-B.C.430)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -84,7 +81,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">四大元素論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">エンペドクレス(B.C.490-B.C.430)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">多様な物質の生滅は地・水・火・風という4種類の元素が結合・分離することによって起こる。</span></p>
 
 	</div>

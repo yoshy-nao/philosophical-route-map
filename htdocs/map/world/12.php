@@ -15,9 +15,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">天地創造<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">キリスト教</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -33,7 +30,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">天地創造<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">キリスト教</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">万物は神の無償の愛によって無から生み出された。</span></p>
 
 	</div>

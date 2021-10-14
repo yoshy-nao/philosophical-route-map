@@ -30,9 +30,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">魂への配慮<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ソクラテス（B.C.470-399)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -51,7 +48,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">魂への配慮<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ソクラテス（B.C.470-399)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">自分の心や魂に目を向け、自らの無知を自覚することで、真の知に近づくことができる。そして、真の知を求め、愛することによって、より善く生きることができる。</span>
 			<span class="single-diagram__content__text__2 animation-text">このような「魂への配慮」を実践し、知恵によって魂に徳（アレテー）を持たせるべきである。</span>

@@ -21,7 +21,7 @@
 </style>
 <div class="single-diagram">
 	<!-- タイトル -->
-	<h2 class="single-diagram__title ">機械論的自然観<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">トマス・ホッブス（1588-1679)
+	<h2 class="single-diagram__content__title">機械論的自然観<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">トマス・ホッブス（1588-1679)
 </a></h2>
 	<!-- タイトルここまで-->
 	<!-- ボックス -->
@@ -42,7 +42,7 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">自然科学の観点から精神を含む超自然的実体の存在を認めない。したがって、身体や魂を含め人間は全て機械と同じ物質的なものである。</span></p>
 	</div>
 	<!-- ボックスここまで -->

@@ -27,10 +27,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">魂の３分説<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">プラトン（B.C.427-B.C.347)
-</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -61,7 +57,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">魂の３分説<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">プラトン（B.C.427-B.C.347)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">魂はもともとイデア界に住んでおり、生まれる際に地上に降りてきた。</span><span class="single-diagram__content__text__2 animation-text">その魂は「理性」「意志」「欲望」の3つに分類され、それぞれ頭部・胸部・腹部に宿る。</span><span class="single-diagram__content__text__3 animation-text">そして、理性によって意志と欲望のバランスを取ることで魂の調和を目指すべきである。</span></p>
 	</div>
 	<!-- ボックスここまで -->

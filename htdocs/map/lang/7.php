@@ -18,9 +18,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">作者の死<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ロラン・バルト(1915-1980)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -43,7 +40,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">作者の死<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ロラン・バルト(1915-1980)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">テキスト（作品）を作者を切り離して考え、テキストは既に社会にある無数のテキスト（構造）から引用したものである（作者の死）。</span>
 			<span class="single-diagram__content__text__2 animation-text">また、このような考え方を文学以外にも応用し、あらゆる表現や出来事に隠された意味を解き明かそうとした。</span>

@@ -21,9 +21,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">第一因<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">アリストテレス（B.C.384-B.C.322)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -48,7 +45,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">第一因<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">アリストテレス（B.C.384-B.C.322)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">原因と結果の系列をずっと遡っていくと、最後にそれ自体は動かされない因果関係の系列全体を支える不動の「第一因」に突き当たる。この第一因は世界の根本原因である。</span>
 		</p>

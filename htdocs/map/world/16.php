@@ -19,9 +19,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">一元論<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">バールーフ・デ・スピノザ（1632-1677)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -38,7 +35,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">一元論<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">バールーフ・デ・スピノザ（1632-1677)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">神（自然）が唯一の実体であり、この世界には神しか存在していない。</span><span class="single-diagram__content__text__2 animation-text">つまり、すべては神の中にあり、神が姿を変えたものによって構成されている。精神も物質もすべて同じ神が姿を変えたものであり、全ては区別されないものである。</span></p>
 
 	</div>

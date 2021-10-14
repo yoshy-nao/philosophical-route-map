@@ -19,9 +19,6 @@
 }
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">パラダイムシフト<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">トマス・クーン(1922-1996)</a></h2>
-	<!-- タイトルここまで -->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -45,7 +42,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">パラダイムシフト<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">トマス・クーン(1922-1996)</a></h2>
+		<!-- タイトルここまで -->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">時代の変化は連続的ではなく、むしろ断続的なものである。ひとつの時代の枠組みをパラダイムといい、これが新しい発見などによって転換されること（パラダイムシフト）によって、科学は進歩してきた。</span>
 		</p>

@@ -26,9 +26,6 @@
 	} */
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">言語の恣意性<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フェルディナン・ド・ソシュール（1857-1913）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -44,7 +41,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">言語の恣意性<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フェルディナン・ド・ソシュール（1857-1913）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">既に存在するものに人間が名前をつけているのではなく、人間が名前を与えることで世界を区切り、秩序づけている。つまり、本来ものの区別など存在しない。</span>
 		</p>

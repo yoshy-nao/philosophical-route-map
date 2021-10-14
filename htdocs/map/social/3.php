@@ -13,9 +13,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">君主制<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ニコロ・マキャベリ（1496-1527)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -40,7 +37,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">君主制<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ニコロ・マキャベリ（1496-1527)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">国家を維持するためには、場合によってその時代の道徳に反する行いをする必要がある。</span>
 		</p>

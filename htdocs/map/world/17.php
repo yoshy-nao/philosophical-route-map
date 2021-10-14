@@ -72,9 +72,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">モナド<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ゴットフリート・ライプニッツ(1646-1716)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -115,7 +112,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">モナド<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ゴットフリート・ライプニッツ(1646-1716)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">万物は神によって創造された無数のモナド（単子）から成り立っている。このモナドは物質的なものではなく、精神的な実体である。</span><span class="single-diagram__content__text__2 animation-text">そして、モナドで構成された世界は神によって秩序が保たれている。</span></p>
 
 	</div>

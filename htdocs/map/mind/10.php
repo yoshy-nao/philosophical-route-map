@@ -18,9 +18,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">構造主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">クロード・レヴィ＝ストロース(1908-2009)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -43,7 +40,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">構造主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">クロード・レヴィ＝ストロース(1908-2009)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text"><span class="single-diagram__content__text__1 animation-text">個人の意識よりも先に、社会などの構造が先にある。</span><span class="single-diagram__content__text__2 animation-text">そして、個人の意識は社会の構造によって形作られており、無意識のうちに構造によって行動は規定されている。</span></p>
 
 	</div>

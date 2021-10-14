@@ -60,9 +60,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">悟性<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">イマヌエル・カント（1724-1804)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -94,7 +91,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">悟性<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">イマヌエル・カント（1724-1804)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">因果律は単なる習慣ではなく、人間に共通して先天的（ア・プリオリ）に備わっている「悟性」という感覚によって認識可能である。</span>
 		</p>

@@ -58,7 +58,7 @@
 			$('.fadein-1').fadeIn(1000);
 			setTimeout(function(){
 				$('.fadein-2').fadeIn(1000);
-				$('.single-diagram__content__text__3').addClass('is-animation-text');
+				$('.single-diagram__content__text__2').addClass('is-animation-text');
 				setTimeout(function(){
 					$('.fadein-3').fadeIn(1000);
 				}, 2000);
@@ -67,9 +67,6 @@
 	}, 1000);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">力への意志<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">フリードリヒ・ニーチェ（1844-1900）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -96,7 +93,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">力への意志<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">フリードリヒ・ニーチェ（1844-1900）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">弱者はより強いものになりたいという根源的な力への意志を抑圧し、生を否定して無を志向するニヒリズム（虚無主義）に陥る傾向にある。</span>
 			<span class="single-diagram__content__text__2 animation-text">それに対して、一般的な価値基準がないことを認識しつつ「力への意志」によって生を肯定する。そして、そのような価値創造的な人間は超人と呼ばれる。</span>

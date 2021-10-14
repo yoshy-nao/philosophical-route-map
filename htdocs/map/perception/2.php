@@ -59,9 +59,6 @@
 	}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">複合観念<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジョン・ロック（1632-1704)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -93,7 +90,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">複合観念<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジョン・ロック（1632-1704)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">人は誰しも生まれたばかりの頃は観念に何も書かれていない白紙の状態（ダブラ・ラサ）である。</span>
 			<span class="single-diagram__content__text__2 animation-text">そこから様々な経験によって、主観の中に複合観念が形成される。</span>

@@ -10,9 +10,6 @@
 	.object-text--bottom {top: 108%;}
 </style>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">質的功利主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">ジョン・シュチュアート・ミル（1806-1873)</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -28,7 +25,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">質的功利主義<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">ジョン・シュチュアート・ミル（1806-1873)</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">「満足した豚よりも、不満足な人間である方がいい」人間にふさわしい、質の高い快楽を追求を肯定する。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、人間にとって自由こそが必要不可欠なものであるとし、社会はあらゆる個人に幸福を追求する自由を保障しなければならないとした。</span></p>

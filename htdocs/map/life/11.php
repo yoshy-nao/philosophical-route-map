@@ -44,9 +44,6 @@
 	}, 1000);
 </script>
 <div class="single-diagram">
-	<!-- タイトル -->
-	<h2 class="single-diagram__title ">包括者<br><a href="/map/index.php<?=$link?>" class="single-diagram__subtitle">カール・ヤスパース（1883-1969）</a></h2>
-	<!-- タイトルここまで-->
 	<!-- ボックス -->
 	<div class="single-diagram__box">
     <a href="#" class="reset-button"><img src="/common/img/reset.svg"></a>
@@ -69,7 +66,10 @@
 	</div>
 	<!-- ボックスここまで -->
 	<!-- テキスト -->
-	<div class="single-diagram__content ">
+	<div class="single-diagram__content">
+		<!-- タイトル -->
+		<h2 class="single-diagram__content__title">包括者<br><a href="/map/index.php<?=$link?>" class="single-diagram__content__subtitle">カール・ヤスパース（1883-1969）</a></h2>
+		<!-- タイトルここまで-->
 		<p class="single-diagram__content__text">
 			<span class="single-diagram__content__text__1 animation-text">人が実存の状態になるのは死、罪、戦争など解決のできない限界状況に立たされたときである。</span>
 			<span class="single-diagram__content__text__2 animation-text">そして、そのような状況から逃避せず、向き合うことで、現実を超えた包括者の存在に気づくことができる。自分もその永遠の存在に包まれていることを確信するとき、生き方を主体的に選択する真の実存が生まれる。</span>
